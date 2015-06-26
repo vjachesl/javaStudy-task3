@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<knifes xsi:noNamespaceSchemaLocation="knifes2.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- 1 Element-->
+    <knife name="tourist">
+        <knifeType>knife</knifeType>
+        <knifeHandy>1</knifeHandy>
+        <knifeOrigin>China</knifeOrigin>
+        <knifeVisual>
+            <knifeBlade length="10" width="20" metal="steel"/>
+            <knifeHandle>
+                <plastic/>
+            </knifeHandle>
+        </knifeVisual>
+        <collection>false</collection>
+    </knife>
+
+    <!-- 2 Element-->
+    <knife name="machete">
+        <knifeType>knife</knifeType>
+        <knifeHandy>1</knifeHandy>
+        <knifeOrigin>China</knifeOrigin>
+        <knifeVisual>
+            <knifeBlade length="90" width="20" metal="steel"></knifeBlade>
+            <knifeHandle>
+                <wood type="acacia"></wood>
+            </knifeHandle>
+        </knifeVisual>
+        <collection>false</collection>
+    </knife>
+
+    <!-- 3 Element-->
+    <knife name="KingsSword">
+        <knifeType>sword</knifeType>
+        <knifeHandy>2</knifeHandy>
+        <knifeOrigin>Ukraine</knifeOrigin>
+        <knifeVisual>
+            <knifeBlade length="120" width="30" metal="steel"></knifeBlade>
+            <knifeHandle>
+                <leatherCoated/>
+            </knifeHandle>
+        </knifeVisual>
+        <collection>false</collection>
+    </knife>
+</knifes>
